@@ -15,7 +15,7 @@ I’ll share a simple approach I use to transform these daunting datasets into c
 
 #### The Problem: Scary Data from Web API
 
-When working with web data or APIs, I usually encounter URLs like this: “http://environment.data.gov.uk/flood-monitoring/id/floods/034WAB42428176”
+When working with web data or APIs, I usually encounter URLs like this: *“http://environment.data.gov.uk/flood-monitoring/id/floods/034WAB42428176”*
 
 At first glance, it was difficult to make sense of what was relevant. But I realised I only needed the ID after "floods/"? This is where Power Query comes to the rescue.
 
@@ -27,7 +27,9 @@ I start by loading the dataset into Power Query using the web connector. For thi
 
 #### - Extract the Relevant Information
 
-To isolate the ID from the URL, I use the Text.AfterDelimiter function. This function lets me pull out everything after a specific text. Here’s the formula I apply in a custom column: Text.AfterDelimiter([ColumnName], "floods/") OR highlight the column, Transform tab > Extract > Text After Delimiter , then enter “floods/”. This simple step instantly transforms a long, scary URL into just the ID I need.
+To isolate the ID from the URL, I use the Text.AfterDelimiter function. This function lets me pull out everything after a specific text. 
+
+Here’s the formula I apply in a custom column: *Text.AfterDelimiter([ColumnName], "floods/")* OR highlight the column, *Transform tab > Extract > Text After Delimiter* , then enter “floods/”. This simple step instantly transforms a long, scary URL into just the ID I need.
 
 #### -Remove Unnecessary Metadata Columns
 
