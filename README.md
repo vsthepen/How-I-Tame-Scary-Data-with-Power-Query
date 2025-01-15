@@ -2,7 +2,8 @@
 
 Have you ever worked with "scary data"? You know that kind of data pulled straight from the web, riddled with long, intimidating URLs packed with IDs, parameters, and cryptic structures? Or datasets like survey responses, social media data, CRM or ERP exports. It can feel overwhelming at first, but you’ll be happy to know that most of the fields in these types of datasets are typically riddled with irrelevant metadata, duplicate entries and inconsistent formats. However, thanks to Power Query, I can clean, reshape, and extract the gems hidden in the mess.
 
-###### *Sample 1* ![image](https://github.com/user-attachments/assets/ae8606e3-9e7f-46de-8984-d334d3c7f309)
+###### *Sample 1*
+![image](https://github.com/user-attachments/assets/ae8606e3-9e7f-46de-8984-d334d3c7f309)
 
 ###### *Sample 2* ![image](https://github.com/user-attachments/assets/ba3df96e-3cf0-4990-9ce8-ec65f6ea3ce6)
 
