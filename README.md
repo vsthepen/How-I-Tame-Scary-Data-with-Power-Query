@@ -23,7 +23,7 @@ Here’s how I clean and organise such data:
 
 #### - Load the Data
 
-I start by loading the dataset into Power Query using the web connector. For this example, I extracted the data from a public API (Environment Agency), which didn’t require authentication or API keys.
+I start by loading the dataset into Power Query using the web connector. For this example, I extracted the data from a public API (Environment Agency), which didn’t require authentication or an API key.
 
 #### - Extract the Relevant Information
 
