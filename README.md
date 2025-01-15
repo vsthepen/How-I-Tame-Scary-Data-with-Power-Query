@@ -2,9 +2,9 @@
 
 Have you ever worked with "scary data"? You know that kind of data pulled straight from the web, riddled with long, intimidating URLs packed with IDs, parameters, and cryptic structures? Or datasets like survey responses, social media data, CRM or ERP exports. It can feel overwhelming at first, but you’ll be happy to know that most of the fields in these types of datasets are typically riddled with irrelevant metadata, duplicate entries and inconsistent formats. However, thanks to Power Query, I can clean, reshape, and extract the gems hidden in the mess.
 
-Sample 1![image](https://github.com/user-attachments/assets/ae8606e3-9e7f-46de-8984-d334d3c7f309)
+*Sample 1* ![image](https://github.com/user-attachments/assets/ae8606e3-9e7f-46de-8984-d334d3c7f309)
 
-Sample 2![image](https://github.com/user-attachments/assets/ba3df96e-3cf0-4990-9ce8-ec65f6ea3ce6)
+*Sample 2* ![image](https://github.com/user-attachments/assets/ba3df96e-3cf0-4990-9ce8-ec65f6ea3ce6)
 
 
 I’ll share a simple approach I use to transform these daunting datasets into clean, usable formats.
@@ -36,7 +36,7 @@ I validate the data to ensure there are no errors or inconsistencies. If needed,
 
 Power Query’s step-by-step approach makes it easy to document every transformation I apply. This ensures transparency and makes it simple to replicate the process in the future.
 
-![image](https://github.com/user-attachments/assets/2b1e29c8-e6d8-44bc-8d8d-415fc41cb5ac)
+After transformation ![image](https://github.com/user-attachments/assets/2b1e29c8-e6d8-44bc-8d8d-415fc41cb5ac)
 
 ![image](https://github.com/user-attachments/assets/cff3bf2e-fa44-4582-8f17-4f5775519db4)
 
